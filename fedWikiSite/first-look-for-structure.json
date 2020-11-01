@@ -1,0 +1,309 @@
+{
+  "title": "First Look for Structure",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "6e7f537c8f9bb1df",
+      "text": "If you have data in a file it is because someone put it there. Your first task is to figure out what they thought they were doing and how they went about doing it."
+    },
+    {
+      "type": "paragraph",
+      "id": "6f5de3431e10fcd5",
+      "text": "Are disk blocks missing?"
+    },
+    {
+      "type": "code",
+      "id": "748f32a1f0e75099",
+      "text": "ls -l unknown\nwc -c unknown"
+    },
+    {
+      "type": "paragraph",
+      "id": "c4641478f63f0d93",
+      "text": "Are there lines? What kind of lines?"
+    },
+    {
+      "type": "code",
+      "id": "ddd431dd838ab3ae",
+      "text": "od -c unknown | less"
+    },
+    {
+      "type": "paragraph",
+      "id": "1032c4fcfd2dea5a",
+      "text": "Are there multi-byte characters?"
+    },
+    {
+      "type": "code",
+      "id": "3f04d653263a8222",
+      "text": "wc -c unknown\nwc -m unknown"
+    },
+    {
+      "type": "paragraph",
+      "id": "20f59288ec1ac536",
+      "text": "[[First Look at Binary]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "3640ed138ee42023",
+      "text": "[[First Look at Encodings]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "6a8e75e1c27e9144",
+      "text": "[[First Look at Familiar Formats]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "First Look for Structure",
+        "story": []
+      },
+      "date": 1475941026848
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6e7f537c8f9bb1df"
+      },
+      "id": "6e7f537c8f9bb1df",
+      "type": "add",
+      "date": 1475941052480
+    },
+    {
+      "type": "edit",
+      "id": "6e7f537c8f9bb1df",
+      "item": {
+        "type": "paragraph",
+        "id": "6e7f537c8f9bb1df",
+        "text": "If you have data in a file it is because someone put it there. Your first task is to figure out what they thought they were doing."
+      },
+      "date": 1475941146600
+    },
+    {
+      "type": "edit",
+      "id": "6e7f537c8f9bb1df",
+      "item": {
+        "type": "paragraph",
+        "id": "6e7f537c8f9bb1df",
+        "text": "If you have data in a file it is because someone put it there. Your first task is to figure out what they thought they were doing and how they went about doing it."
+      },
+      "date": 1475941367842
+    },
+    {
+      "type": "add",
+      "id": "c4641478f63f0d93",
+      "item": {
+        "type": "paragraph",
+        "id": "c4641478f63f0d93",
+        "text": "Are there lines? What kind of lines?"
+      },
+      "after": "6e7f537c8f9bb1df",
+      "date": 1475941633700
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ddd431dd838ab3ae"
+      },
+      "id": "ddd431dd838ab3ae",
+      "type": "add",
+      "after": "c4641478f63f0d93",
+      "date": 1475941635769
+    },
+    {
+      "type": "edit",
+      "id": "ddd431dd838ab3ae",
+      "item": {
+        "type": "code",
+        "id": "ddd431dd838ab3ae",
+        "text": "od -c unknown | less"
+      },
+      "date": 1475941662194
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6f5de3431e10fcd5"
+      },
+      "id": "6f5de3431e10fcd5",
+      "type": "add",
+      "after": "ddd431dd838ab3ae",
+      "date": 1475942151743
+    },
+    {
+      "type": "edit",
+      "id": "6f5de3431e10fcd5",
+      "item": {
+        "type": "paragraph",
+        "id": "6f5de3431e10fcd5",
+        "text": "Do you have the whole file or are blocks missing?"
+      },
+      "date": 1475942312742
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "748f32a1f0e75099"
+      },
+      "id": "748f32a1f0e75099",
+      "type": "add",
+      "after": "6f5de3431e10fcd5",
+      "date": 1475942315825
+    },
+    {
+      "type": "edit",
+      "id": "748f32a1f0e75099",
+      "item": {
+        "type": "code",
+        "id": "748f32a1f0e75099",
+        "text": "ls -l unknown\nwc -c unknown"
+      },
+      "date": 1475942366003
+    },
+    {
+      "type": "move",
+      "order": [
+        "6e7f537c8f9bb1df",
+        "6f5de3431e10fcd5",
+        "c4641478f63f0d93",
+        "ddd431dd838ab3ae",
+        "748f32a1f0e75099"
+      ],
+      "id": "6f5de3431e10fcd5",
+      "date": 1475942586005
+    },
+    {
+      "type": "move",
+      "order": [
+        "6e7f537c8f9bb1df",
+        "6f5de3431e10fcd5",
+        "748f32a1f0e75099",
+        "c4641478f63f0d93",
+        "ddd431dd838ab3ae"
+      ],
+      "id": "748f32a1f0e75099",
+      "date": 1475942589352
+    },
+    {
+      "type": "edit",
+      "id": "6f5de3431e10fcd5",
+      "item": {
+        "type": "paragraph",
+        "id": "6f5de3431e10fcd5",
+        "text": "Are disk blocks missing?"
+      },
+      "date": 1475942610522
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "1032c4fcfd2dea5a"
+      },
+      "id": "1032c4fcfd2dea5a",
+      "type": "add",
+      "after": "ddd431dd838ab3ae",
+      "date": 1475942630356
+    },
+    {
+      "type": "edit",
+      "id": "1032c4fcfd2dea5a",
+      "item": {
+        "type": "paragraph",
+        "id": "1032c4fcfd2dea5a",
+        "text": "Are there multi-byte characters?"
+      },
+      "date": 1475942644578
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3f04d653263a8222"
+      },
+      "id": "3f04d653263a8222",
+      "type": "add",
+      "after": "1032c4fcfd2dea5a",
+      "date": 1475942648703
+    },
+    {
+      "type": "edit",
+      "id": "3f04d653263a8222",
+      "item": {
+        "type": "code",
+        "id": "3f04d653263a8222",
+        "text": "wc -c unknown\nwc -m unknown"
+      },
+      "date": 1475942669275
+    },
+    {
+      "type": "move",
+      "order": [
+        "6e7f537c8f9bb1df",
+        "6f5de3431e10fcd5",
+        "748f32a1f0e75099",
+        "1032c4fcfd2dea5a",
+        "c4641478f63f0d93",
+        "ddd431dd838ab3ae",
+        "3f04d653263a8222"
+      ],
+      "id": "1032c4fcfd2dea5a",
+      "date": 1475942672896
+    },
+    {
+      "type": "move",
+      "order": [
+        "6e7f537c8f9bb1df",
+        "6f5de3431e10fcd5",
+        "748f32a1f0e75099",
+        "c4641478f63f0d93",
+        "ddd431dd838ab3ae",
+        "1032c4fcfd2dea5a",
+        "3f04d653263a8222"
+      ],
+      "id": "1032c4fcfd2dea5a",
+      "date": 1475942682642
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "20f59288ec1ac536"
+      },
+      "id": "20f59288ec1ac536",
+      "type": "add",
+      "after": "3f04d653263a8222",
+      "date": 1475943501307
+    },
+    {
+      "type": "edit",
+      "id": "20f59288ec1ac536",
+      "item": {
+        "type": "paragraph",
+        "id": "20f59288ec1ac536",
+        "text": "[[First Look at Binary]]"
+      },
+      "date": 1475943525864
+    },
+    {
+      "type": "add",
+      "id": "3640ed138ee42023",
+      "item": {
+        "type": "paragraph",
+        "id": "3640ed138ee42023",
+        "text": "[[First Look at Encodings]]"
+      },
+      "after": "20f59288ec1ac536",
+      "date": 1475943543298
+    },
+    {
+      "type": "add",
+      "id": "6a8e75e1c27e9144",
+      "item": {
+        "type": "paragraph",
+        "id": "6a8e75e1c27e9144",
+        "text": "[[First Look at Familiar Formats]]"
+      },
+      "after": "3640ed138ee42023",
+      "date": 1475943580366
+    }
+  ]
+}
