@@ -1,0 +1,104 @@
+[
+  {
+    "slug": "alien-formats",
+    "title": "Alien Formats",
+    "date": 1493470847831,
+    "synopsis": "I do lots of investigative visualization working on development timescales like one hour, one day, one month or years. I especially like studying alien semistructured data formats where structure was intended but poorly executed and schema lost. A good example would be sense-making of some random xml or yaml file."
+  },
+  {
+    "slug": "el-dorado",
+    "title": "El Dorado",
+    "date": 1491076313575,
+    "synopsis": "My colleagues and I anticipated losing track of micro-services when they are freely created through self-service. Is this a problem? Andrew Ettinger initiated the further study of our engineering records that he dubbed El Dorado, the place of treasure."
+  },
+  {
+    "slug": "el-dorado-warehouse",
+    "title": "El Dorado Warehouse",
+    "date": 1487082408369,
+    "synopsis": "The El Dorado project at New Relic builds on their existing Treasure Map of microservices. It uses a data warehouse strategy of extract-transform-load except that the focus is on structure, not so much data, and the analytic database chosen to host it is Neo4j."
+  },
+  {
+    "slug": "exploratory-parsing",
+    "title": "Exploratory Parsing",
+    "date": 1478045903212,
+    "synopsis": "See AboutUs Getting Started blog post announcing the open-sourcing of this technology. [https://github.com/WardCunningham/devblog/blob/master/_posts/2011-07-03-getting-started-exploratory-parsing.markdown github]"
+  },
+  {
+    "slug": "find-things-in-proportion",
+    "title": "Find Things in Proportion",
+    "date": 1477191213746,
+    "synopsis": "Once you can expose structured information you will want to know how much of each structure you have. Do the counts make sense? Are things in proportion?"
+  },
+  {
+    "slug": "first-look-at-binary",
+    "title": "First Look at Binary",
+    "date": 1475945252883,
+    "synopsis": "Look for the framing strategy used to separate various kinds of information. If there is plain text anywhere, look at what separates it. Know common format indicators."
+  },
+  {
+    "slug": "first-look-at-encodings",
+    "title": "First Look at Encodings",
+    "date": 1487076563596,
+    "synopsis": "Extended character sets are encoded into smaller ones by a variety of methods. Recognize them by what they do with common characters."
+  },
+  {
+    "slug": "first-look-at-familiar-formats",
+    "title": "First Look at Familiar Formats",
+    "date": 1478469936269,
+    "synopsis": "Look for the conventions used by xml, yaml, json and the like. Check that they have not been adulterated by any subsequent processing."
+  },
+  {
+    "slug": "first-look-for-structure",
+    "title": "First Look for Structure",
+    "date": 1475943580366,
+    "synopsis": "If you have data in a file it is because someone put it there. Your first task is to figure out what they thought they were doing and how they went about doing it."
+  },
+  {
+    "slug": "graph-a-structure-with-graphviz",
+    "title": "Graph a Structure with Graphviz",
+    "date": 1478476457768,
+    "synopsis": "Graphviz will draw a graph composed of nodes and arrows from a declarative text description. Here we describe how to get something up fast and then annotate that with useful debugging results."
+  },
+  {
+    "slug": "how-to-see-it-all",
+    "title": "How to See it All",
+    "date": 1478566523703,
+    "synopsis": "Develop programs that examine all elements of a dataset. Keep track of what you've seen, how often you've seen it and in what context it appears."
+  },
+  {
+    "slug": "iterative-characterization",
+    "title": "Iterative Characterization",
+    "date": 1493479998272,
+    "synopsis": "We can distinguish knowing something from knowing what we know about something. The latter tells us how we might access the former. We can characterize a body of knowledge to varying degrees and incrementally improve that characterization. Our method employs mechanically separating representations into those that we recognize in some detail from those we understand only superficially."
+  },
+  {
+    "slug": "request-and-get-corrections",
+    "title": "Request and Get Corrections",
+    "date": 1487079833775,
+    "synopsis": "When you are promised information delivered in a file you will often find it full of errors and omissions. If you can assume good intentions then you must guide correct construction through dialog from the receiving end."
+  },
+  {
+    "slug": "search-for-crime--corruption",
+    "title": "Search for Crime & Corruption",
+    "date": 1522853512521,
+    "synopsis": "Search leaks, dumps, contracts, procurement records, UN reports, archived media articles, legal entities all at once, from one dashboard. From Organized Crime & Corruption Reporting Project. [https://data.occrp.org/ site]"
+  },
+  {
+    "slug": "ward-cunningham",
+    "title": "Ward Cunningham",
+    "date": 1522853693013,
+    "synopsis": "I've always taken a forensic approach to computing. What is the next thing I can do to get the computer to reveal its secrets? Usually I write another program, a smaller and simpler program than the thing I am trying to understand."
+  },
+  {
+    "slug": "welcome-visitors",
+    "title": "Welcome Visitors",
+    "date": 1475682472138,
+    "synopsis": "Welcome to this [[Federated Wiki]] site. From this page you can find who we are and what we do. New sites provide this information and then claim the site as their own. You will need your own site to participate."
+  },
+  {
+    "slug": "xml-import-in-ruby",
+    "title": "XML Import in Ruby",
+    "date": 1391619162542,
+    "synopsis": "I wrote a Ruby program that parsed a huge XML file shipped to us from a partner. Over several weeks, working a day a week, I would coax our partner to produce a correct file. Throughout this effort Graphviz was my friend."
+  }
+]
