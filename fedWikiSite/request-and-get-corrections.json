@@ -1,0 +1,135 @@
+{
+  "title": "Request and Get Corrections",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "6a1c025c595d0ee6",
+      "text": "When you are promised information delivered in a file you will often find it full of errors and omissions. If you can assume good intentions then you must guide correct construction through dialog from the receiving end."
+    },
+    {
+      "type": "paragraph",
+      "id": "86e0d569c9c449d9",
+      "text": "Consider the source of the information you have. Has everything they provided made it to you? Do you understand the self-interests along the way?"
+    },
+    {
+      "type": "paragraph",
+      "id": "911d6c0ee119a014",
+      "text": "[[Establish Alignment]] of interests."
+    },
+    {
+      "type": "paragraph",
+      "id": "a02398558bc47037",
+      "text": "Consider the path the information has followed. How is it represented at the source? Has it been used successfully there? Who actually encoded the information and produced the file? Are they qualified and properly equipped?"
+    },
+    {
+      "type": "paragraph",
+      "id": "774e7ee37719e12e",
+      "text": "[[Characterize Deficiencies]] especially if there are many."
+    },
+    {
+      "type": "paragraph",
+      "id": "5a72246c5c5c9b6e",
+      "text": "[[Construct a Partnership]] that meets your needs."
+    },
+    {
+      "type": "paragraph",
+      "id": "3f154d81207643ad",
+      "text": "[[Deliver Evidence]] with criteria for evaluation."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Request and Get Corrections",
+        "story": []
+      },
+      "date": 1487078041506
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6a1c025c595d0ee6"
+      },
+      "id": "6a1c025c595d0ee6",
+      "type": "add",
+      "date": 1487078106275
+    },
+    {
+      "type": "edit",
+      "id": "6a1c025c595d0ee6",
+      "item": {
+        "type": "paragraph",
+        "id": "6a1c025c595d0ee6",
+        "text": "When you are promised information delivered in a file you will often find it full of errors and omissions. If you can assume good intentions then you must guide correct construction through dialog from the receiving end."
+      },
+      "date": 1487078413046
+    },
+    {
+      "type": "add",
+      "id": "86e0d569c9c449d9",
+      "item": {
+        "type": "paragraph",
+        "id": "86e0d569c9c449d9",
+        "text": "Consider the source of the information you have. Has everything they provided made it to you? Do you understand the self-interests along the way?"
+      },
+      "after": "6a1c025c595d0ee6",
+      "date": 1487078919795
+    },
+    {
+      "type": "add",
+      "id": "a02398558bc47037",
+      "item": {
+        "type": "paragraph",
+        "id": "a02398558bc47037",
+        "text": "Consider the path the information has followed. How is it represented at the source? Has it been used successfully there? Who actually encoded the information and produced the file? Are they qualified and properly equipped?"
+      },
+      "after": "86e0d569c9c449d9",
+      "date": 1487079138597
+    },
+    {
+      "type": "add",
+      "id": "911d6c0ee119a014",
+      "item": {
+        "type": "paragraph",
+        "id": "911d6c0ee119a014",
+        "text": "[[Establish Alignment]] of interests."
+      },
+      "after": "86e0d569c9c449d9",
+      "date": 1487079323263
+    },
+    {
+      "type": "add",
+      "id": "774e7ee37719e12e",
+      "item": {
+        "type": "paragraph",
+        "id": "774e7ee37719e12e",
+        "text": "[[Characterize Deficiencies]] especially if there are many."
+      },
+      "after": "a02398558bc47037",
+      "date": 1487079462690
+    },
+    {
+      "type": "add",
+      "id": "5a72246c5c5c9b6e",
+      "item": {
+        "type": "paragraph",
+        "id": "5a72246c5c5c9b6e",
+        "text": "[[Construct a Partnership]] that meets your needs."
+      },
+      "after": "774e7ee37719e12e",
+      "date": 1487079681003
+    },
+    {
+      "type": "add",
+      "id": "3f154d81207643ad",
+      "item": {
+        "type": "paragraph",
+        "id": "3f154d81207643ad",
+        "text": "[[Deliver Evidence]] with criteria for evaluation."
+      },
+      "after": "5a72246c5c5c9b6e",
+      "date": 1487079833775
+    }
+  ]
+}
