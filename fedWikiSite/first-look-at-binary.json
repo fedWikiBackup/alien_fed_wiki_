@@ -1,0 +1,217 @@
+{
+  "title": "First Look at Binary",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "a5c27ae2ef94ad5f",
+      "text": "Look for the framing strategy used to separate various kinds of information. If there is plain text anywhere, look at what separates it. Know common format indicators."
+    },
+    {
+      "type": "paragraph",
+      "id": "8be7da54ae5edeaa",
+      "text": "Does file recognize it?"
+    },
+    {
+      "type": "code",
+      "id": "7568e4713c111f5a",
+      "text": "file unknown"
+    },
+    {
+      "type": "paragraph",
+      "id": "a4da19e7de1e8c22",
+      "text": "Do any strings look familiar?"
+    },
+    {
+      "type": "code",
+      "id": "a15de826105aef92",
+      "text": "strings unknown"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "First Look at Binary",
+        "story": []
+      },
+      "date": 1475943614812
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a5c27ae2ef94ad5f"
+      },
+      "id": "a5c27ae2ef94ad5f",
+      "type": "add",
+      "date": 1475943619011
+    },
+    {
+      "type": "edit",
+      "id": "a5c27ae2ef94ad5f",
+      "item": {
+        "type": "paragraph",
+        "id": "a5c27ae2ef94ad5f",
+        "text": "Look for "
+      },
+      "date": 1475943983373
+    },
+    {
+      "type": "edit",
+      "id": "a5c27ae2ef94ad5f",
+      "item": {
+        "type": "paragraph",
+        "id": "a5c27ae2ef94ad5f",
+        "text": "Look for the framing strategy used to separate various kinds of information. If there is plain text anywhere, look at what separates it."
+      },
+      "date": 1475944921053
+    },
+    {
+      "type": "edit",
+      "id": "a5c27ae2ef94ad5f",
+      "item": {
+        "type": "paragraph",
+        "id": "a5c27ae2ef94ad5f",
+        "text": "Look for the framing strategy used to separate various kinds of information. If there is plain text anywhere, look at what separates it. Know common formats and their first bytes."
+      },
+      "date": 1475944964432
+    },
+    {
+      "type": "edit",
+      "id": "a5c27ae2ef94ad5f",
+      "item": {
+        "type": "paragraph",
+        "id": "a5c27ae2ef94ad5f",
+        "text": "Look for the framing strategy used to separate various kinds of information. If there is plain text anywhere, look at what separates it. Know common format indicators."
+      },
+      "date": 1475944985205
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "7568e4713c111f5a"
+      },
+      "id": "7568e4713c111f5a",
+      "type": "add",
+      "after": "a5c27ae2ef94ad5f",
+      "date": 1475945067711
+    },
+    {
+      "type": "edit",
+      "id": "7568e4713c111f5a",
+      "item": {
+        "type": "code",
+        "id": "7568e4713c111f5a",
+        "text": "file unknown"
+      },
+      "date": 1475945096312
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "602d998de5ba7be8"
+      },
+      "id": "602d998de5ba7be8",
+      "type": "add",
+      "after": "7568e4713c111f5a",
+      "date": 1475945098504
+    },
+    {
+      "type": "edit",
+      "id": "602d998de5ba7be8",
+      "item": {
+        "type": "paragraph",
+        "id": "602d998de5ba7be8",
+        "text": "strings unknown"
+      },
+      "date": 1475945111577
+    },
+    {
+      "type": "remove",
+      "id": "602d998de5ba7be8",
+      "date": 1475945117506
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a15de826105aef92"
+      },
+      "id": "a15de826105aef92",
+      "type": "add",
+      "after": "7568e4713c111f5a",
+      "date": 1475945119253
+    },
+    {
+      "type": "edit",
+      "id": "a15de826105aef92",
+      "item": {
+        "type": "code",
+        "id": "a15de826105aef92",
+        "text": "strings unknown"
+      },
+      "date": 1475945123197
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "8be7da54ae5edeaa"
+      },
+      "id": "8be7da54ae5edeaa",
+      "type": "add",
+      "after": "a15de826105aef92",
+      "date": 1475945150442
+    },
+    {
+      "type": "edit",
+      "id": "8be7da54ae5edeaa",
+      "item": {
+        "type": "paragraph",
+        "id": "8be7da54ae5edeaa",
+        "text": "Does file recognize it?"
+      },
+      "date": 1475945178928
+    },
+    {
+      "type": "move",
+      "order": [
+        "a5c27ae2ef94ad5f",
+        "8be7da54ae5edeaa",
+        "7568e4713c111f5a",
+        "a15de826105aef92"
+      ],
+      "id": "8be7da54ae5edeaa",
+      "date": 1475945182387
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a4da19e7de1e8c22"
+      },
+      "id": "a4da19e7de1e8c22",
+      "type": "add",
+      "after": "a15de826105aef92",
+      "date": 1475945215277
+    },
+    {
+      "type": "edit",
+      "id": "a4da19e7de1e8c22",
+      "item": {
+        "type": "paragraph",
+        "id": "a4da19e7de1e8c22",
+        "text": "Do any strings look familiar?"
+      },
+      "date": 1475945249964
+    },
+    {
+      "type": "move",
+      "order": [
+        "a5c27ae2ef94ad5f",
+        "8be7da54ae5edeaa",
+        "7568e4713c111f5a",
+        "a4da19e7de1e8c22",
+        "a15de826105aef92"
+      ],
+      "id": "a4da19e7de1e8c22",
+      "date": 1475945252883
+    }
+  ]
+}
