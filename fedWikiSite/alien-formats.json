@@ -1,0 +1,269 @@
+{
+  "title": "Alien Formats",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "d9fb5b335a0eaedc",
+      "text": "I do lots of investigative visualization working on development timescales like one hour, one day, one month or years. I especially like studying alien semistructured data formats where structure was intended but poorly executed and schema lost. A good example would be sense-making of some random xml or yaml file."
+    },
+    {
+      "type": "paragraph",
+      "id": "fe478410d8516efd",
+      "text": "[[Iterative Characterization]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "04b8b16cf5f7c80f",
+      "text": "Say you encounter a large data file with sketchy details and a hint that it could be valuable. You have questions."
+    },
+    {
+      "type": "paragraph",
+      "id": "985dbd218597966e",
+      "text": "[[First Look for Structure]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "3c021adf0300bac7",
+      "text": "[[Find Things in Proportion]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "2c3f0ec5d3fb7158",
+      "text": "[[How to See it All]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "d1ab529acbda02fe",
+      "text": "Now we consider how to reap the value available in this data over time and in the context of other things we know."
+    },
+    {
+      "type": "paragraph",
+      "id": "e2d9d012255490da",
+      "text": "[[Request and Get Corrections]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "19291b205b108346",
+      "text": "[[Cross-Check and Merge Sources]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "025e5054fb7010b9",
+      "text": "[[Establish and Monitor a Feed]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "824765553ada19be",
+      "text": "These and related skills have variations that address more specialized applications."
+    },
+    {
+      "type": "paragraph",
+      "id": "30cd0824ffacc49b",
+      "text": "[[Reading Through an API]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "56078e68da7a9672",
+      "text": "[[Hacking and its Detection]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Alien Formats",
+        "story": []
+      },
+      "date": 1475682476591
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d9fb5b335a0eaedc"
+      },
+      "id": "d9fb5b335a0eaedc",
+      "type": "add",
+      "date": 1475682492414
+    },
+    {
+      "type": "edit",
+      "id": "d9fb5b335a0eaedc",
+      "item": {
+        "type": "paragraph",
+        "id": "d9fb5b335a0eaedc",
+        "text": "I do lots of investigative visualization working on development timescales like one hour, one day, one month or years. I especially like studying alien data formats where structure was intended but poorly executed and schema lost. A good example would be sense-making of some random xml or yaml file."
+      },
+      "date": 1475682535520
+    },
+    {
+      "type": "add",
+      "id": "04b8b16cf5f7c80f",
+      "item": {
+        "type": "paragraph",
+        "id": "04b8b16cf5f7c80f",
+        "text": "Say you encounter a large data file with sketchy details and a hint that it could be valuable. You have questions."
+      },
+      "after": "d9fb5b335a0eaedc",
+      "date": 1475682746711
+    },
+    {
+      "type": "add",
+      "id": "985dbd218597966e",
+      "item": {
+        "type": "paragraph",
+        "id": "985dbd218597966e",
+        "text": "[[What Format?]]"
+      },
+      "after": "04b8b16cf5f7c80f",
+      "date": 1475682811883
+    },
+    {
+      "type": "edit",
+      "id": "985dbd218597966e",
+      "item": {
+        "type": "paragraph",
+        "id": "985dbd218597966e",
+        "text": "[[First Look for Structure]]"
+      },
+      "date": 1475682888775
+    },
+    {
+      "type": "add",
+      "id": "3c021adf0300bac7",
+      "item": {
+        "type": "paragraph",
+        "id": "3c021adf0300bac7",
+        "text": "[[Find Things in Proportion]]"
+      },
+      "after": "985dbd218597966e",
+      "date": 1475682913315
+    },
+    {
+      "type": "add",
+      "id": "2c3f0ec5d3fb7158",
+      "item": {
+        "type": "paragraph",
+        "id": "2c3f0ec5d3fb7158",
+        "text": "[[How to See it All]]"
+      },
+      "after": "3c021adf0300bac7",
+      "date": 1475682955645
+    },
+    {
+      "type": "add",
+      "id": "d1ab529acbda02fe",
+      "item": {
+        "type": "paragraph",
+        "id": "d1ab529acbda02fe",
+        "text": "Now we consider how to reap the value available in this data over time and in the context of other things we know."
+      },
+      "after": "2c3f0ec5d3fb7158",
+      "date": 1475685063865
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "e2d9d012255490da"
+      },
+      "id": "e2d9d012255490da",
+      "type": "add",
+      "after": "d1ab529acbda02fe",
+      "date": 1475940426342
+    },
+    {
+      "type": "edit",
+      "id": "e2d9d012255490da",
+      "item": {
+        "type": "paragraph",
+        "id": "e2d9d012255490da",
+        "text": "[[Request and Get Corrections]]"
+      },
+      "date": 1475940744373
+    },
+    {
+      "type": "add",
+      "id": "19291b205b108346",
+      "item": {
+        "type": "paragraph",
+        "id": "19291b205b108346",
+        "text": "[[Cross-Check and Merge Sources]]"
+      },
+      "after": "e2d9d012255490da",
+      "date": 1475940810657
+    },
+    {
+      "type": "add",
+      "id": "025e5054fb7010b9",
+      "item": {
+        "type": "paragraph",
+        "id": "025e5054fb7010b9",
+        "text": "[[Establish and Monitor a Feed]]"
+      },
+      "after": "19291b205b108346",
+      "date": 1475940862196
+    },
+    {
+      "type": "add",
+      "id": "824765553ada19be",
+      "item": {
+        "type": "paragraph",
+        "id": "824765553ada19be",
+        "text": "These and related skills have variations that address more specialized applications."
+      },
+      "after": "025e5054fb7010b9",
+      "date": 1475946736964
+    },
+    {
+      "type": "add",
+      "id": "30cd0824ffacc49b",
+      "item": {
+        "type": "paragraph",
+        "id": "30cd0824ffacc49b",
+        "text": "[[Reading Through an API]]"
+      },
+      "after": "824765553ada19be",
+      "date": 1475946770936
+    },
+    {
+      "type": "add",
+      "id": "56078e68da7a9672",
+      "item": {
+        "type": "paragraph",
+        "id": "56078e68da7a9672",
+        "text": "[[Hacking and its Detection]]"
+      },
+      "after": "30cd0824ffacc49b",
+      "date": 1475946870765
+    },
+    {
+      "type": "edit",
+      "id": "d9fb5b335a0eaedc",
+      "item": {
+        "type": "paragraph",
+        "id": "d9fb5b335a0eaedc",
+        "text": "I do lots of investigative visualization working on development timescales like one hour, one day, one month or years. I especially like studying alien semistructured data formats where structure was intended but poorly executed and schema lost. A good example would be sense-making of some random xml or yaml file."
+      },
+      "date": 1487076216362,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1487076241953
+    },
+    {
+      "type": "add",
+      "id": "fe478410d8516efd",
+      "item": {
+        "type": "paragraph",
+        "id": "fe478410d8516efd",
+        "text": "[[Iterative Characterization]]"
+      },
+      "after": "d9fb5b335a0eaedc",
+      "date": 1493470847831
+    }
+  ]
+}
