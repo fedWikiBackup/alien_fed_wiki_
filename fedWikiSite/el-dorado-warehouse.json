@@ -1,0 +1,39 @@
+{
+  "title": "El Dorado Warehouse",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "4b1c867d6dd4f10e",
+      "text": "The El Dorado project at New Relic builds on their existing Treasure Map of microservices. It uses a data warehouse strategy of extract-transform-load except that the focus is on structure, not so much data, and the analytic database chosen to host it is Neo4j."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "El Dorado Warehouse",
+        "story": []
+      },
+      "date": 1487082201520
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "4b1c867d6dd4f10e"
+      },
+      "id": "4b1c867d6dd4f10e",
+      "type": "add",
+      "date": 1487082206425
+    },
+    {
+      "type": "edit",
+      "id": "4b1c867d6dd4f10e",
+      "item": {
+        "type": "paragraph",
+        "id": "4b1c867d6dd4f10e",
+        "text": "The El Dorado project at New Relic builds on their existing Treasure Map of microservices. It uses a data warehouse strategy of extract-transform-load except that the focus is on structure, not so much data, and the analytic database chosen to host it is Neo4j."
+      },
+      "date": 1487082408369
+    }
+  ]
+}
