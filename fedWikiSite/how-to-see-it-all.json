@@ -1,0 +1,290 @@
+{
+  "title": "How to See it All",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "a2c2398ffd9d7384",
+      "text": "Develop programs that examine all elements of a dataset. Keep track of what you've seen, how often you've seen it and in what context it appears."
+    },
+    {
+      "type": "paragraph",
+      "id": "a2daa453f9b8381b",
+      "text": "The more \"semantic\" your analysis, the more difficult this becomes. Work from structure towards semantic items that are of interest. Count what you are skipping to keep your results in perspective."
+    },
+    {
+      "type": "paragraph",
+      "id": "7638d9bc27df1afb",
+      "text": "Let's ask, who is scraping my site?"
+    },
+    {
+      "type": "code",
+      "id": "6fa9276ccb93cfdc",
+      "text": "ssh c2.com 'head -1000 /var/log/httpd/access_log' |\\\n perl -pe 's/ .*//' | sort | uniq -c | sort -n"
+    },
+    {
+      "type": "paragraph",
+      "id": "42fee0f71911f8aa",
+      "text": "Collapse hyphenated numbers in domain names."
+    },
+    {
+      "type": "code",
+      "id": "ca2bc9a8ad9b7282",
+      "text": "s/-\\d+/-/g"
+    },
+    {
+      "type": "paragraph",
+      "id": "56f5b1261d75b868",
+      "text": "Grep for a mysterious site."
+    },
+    {
+      "type": "code",
+      "id": "f47b09130741dd80",
+      "text": "grep 192.243.55"
+    },
+    {
+      "type": "paragraph",
+      "id": "4bd3af9af37aa7d5",
+      "text": "Hmm. 15,000 hits today?"
+    },
+    {
+      "type": "code",
+      "id": "ae8eb6406ce2334e",
+      "text": "1385 192.243.55.131\n1388 192.243.55.133\n1456 192.243.55.138\n1479 192.243.55.136\n1483 192.243.55.129\n1555 192.243.55.130\n1568 192.243.55.132\n1576 192.243.55.137\n1582 192.243.55.134\n1594 192.243.55.135\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "1deb99a67220cbca",
+      "text": "See [[Graph a Structure with Graphviz]] for presenting structured counts."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "How to See it All",
+        "story": []
+      },
+      "date": 1478543282756
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a2c2398ffd9d7384"
+      },
+      "id": "a2c2398ffd9d7384",
+      "type": "add",
+      "date": 1478564967415
+    },
+    {
+      "type": "edit",
+      "id": "a2c2398ffd9d7384",
+      "item": {
+        "type": "paragraph",
+        "id": "a2c2398ffd9d7384",
+        "text": "Develop programs that examine all elements of a dataset. Keep track of what you've seen, how often you've seen it and in what context it appears."
+      },
+      "date": 1478565184233
+    },
+    {
+      "type": "add",
+      "id": "a2daa453f9b8381b",
+      "item": {
+        "type": "paragraph",
+        "id": "a2daa453f9b8381b",
+        "text": "The more \"semantic\" your analysis, the more difficult this becomes. Work from structure towards semantic items that are of interest. Count what you are skipping to keep your results in perspective."
+      },
+      "after": "a2c2398ffd9d7384",
+      "date": 1478565299727
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "7638d9bc27df1afb"
+      },
+      "id": "7638d9bc27df1afb",
+      "type": "add",
+      "after": "a2daa453f9b8381b",
+      "date": 1478566015620
+    },
+    {
+      "type": "edit",
+      "id": "7638d9bc27df1afb",
+      "item": {
+        "type": "paragraph",
+        "id": "7638d9bc27df1afb",
+        "text": "Let's ask, who is scraping my site?"
+      },
+      "date": 1478566049305
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "6fa9276ccb93cfdc"
+      },
+      "id": "6fa9276ccb93cfdc",
+      "type": "add",
+      "after": "7638d9bc27df1afb",
+      "date": 1478566065357
+    },
+    {
+      "type": "edit",
+      "id": "6fa9276ccb93cfdc",
+      "item": {
+        "type": "code",
+        "id": "6fa9276ccb93cfdc",
+        "text": "ssh c2.com 'head -1000 /var/log/httpd/access_log' |\\\n perl -pe 's/ .*//' | sort | uniq -c | sort -n"
+      },
+      "date": 1478566087534
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "42fee0f71911f8aa"
+      },
+      "id": "42fee0f71911f8aa",
+      "type": "add",
+      "after": "6fa9276ccb93cfdc",
+      "date": 1478566144867
+    },
+    {
+      "type": "edit",
+      "id": "42fee0f71911f8aa",
+      "item": {
+        "type": "paragraph",
+        "id": "42fee0f71911f8aa",
+        "text": "Collapse sites with numbers in their domain names."
+      },
+      "date": 1478566170365
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ca2bc9a8ad9b7282"
+      },
+      "id": "ca2bc9a8ad9b7282",
+      "type": "add",
+      "after": "42fee0f71911f8aa",
+      "date": 1478566172480
+    },
+    {
+      "type": "edit",
+      "id": "ca2bc9a8ad9b7282",
+      "item": {
+        "type": "code",
+        "id": "ca2bc9a8ad9b7282",
+        "text": "s/-\\d+/-/g"
+      },
+      "date": 1478566177031
+    },
+    {
+      "type": "edit",
+      "id": "42fee0f71911f8aa",
+      "item": {
+        "type": "paragraph",
+        "id": "42fee0f71911f8aa",
+        "text": "Collapse hyphenated numbers in domain names."
+      },
+      "date": 1478566218787
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "56f5b1261d75b868"
+      },
+      "id": "56f5b1261d75b868",
+      "type": "add",
+      "after": "ca2bc9a8ad9b7282",
+      "date": 1478566245004
+    },
+    {
+      "type": "edit",
+      "id": "56f5b1261d75b868",
+      "item": {
+        "type": "paragraph",
+        "id": "56f5b1261d75b868",
+        "text": "Grep for a mysterious site."
+      },
+      "date": 1478566265012
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f47b09130741dd80"
+      },
+      "id": "f47b09130741dd80",
+      "type": "add",
+      "after": "56f5b1261d75b868",
+      "date": 1478566275642
+    },
+    {
+      "type": "edit",
+      "id": "f47b09130741dd80",
+      "item": {
+        "type": "code",
+        "id": "f47b09130741dd80",
+        "text": "grep 192.243.55"
+      },
+      "date": 1478566281521
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "4bd3af9af37aa7d5"
+      },
+      "id": "4bd3af9af37aa7d5",
+      "type": "add",
+      "after": "f47b09130741dd80",
+      "date": 1478566364519
+    },
+    {
+      "type": "edit",
+      "id": "4bd3af9af37aa7d5",
+      "item": {
+        "type": "paragraph",
+        "id": "4bd3af9af37aa7d5",
+        "text": "Hmm. 15,000 hits today?"
+      },
+      "date": 1478566378494
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ae8eb6406ce2334e"
+      },
+      "id": "ae8eb6406ce2334e",
+      "type": "add",
+      "after": "4bd3af9af37aa7d5",
+      "date": 1478566381027
+    },
+    {
+      "type": "edit",
+      "id": "ae8eb6406ce2334e",
+      "item": {
+        "type": "code",
+        "id": "ae8eb6406ce2334e",
+        "text": "1385 192.243.55.131\n1388 192.243.55.133\n1456 192.243.55.138\n1479 192.243.55.136\n1483 192.243.55.129\n1555 192.243.55.130\n1568 192.243.55.132\n1576 192.243.55.137\n1582 192.243.55.134\n1594 192.243.55.135\n"
+      },
+      "date": 1478566389436
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "1deb99a67220cbca"
+      },
+      "id": "1deb99a67220cbca",
+      "type": "add",
+      "after": "ae8eb6406ce2334e",
+      "date": 1478566491535
+    },
+    {
+      "type": "edit",
+      "id": "1deb99a67220cbca",
+      "item": {
+        "type": "paragraph",
+        "id": "1deb99a67220cbca",
+        "text": "See [[Graph a Structure with Graphviz]] for presenting structured counts."
+      },
+      "date": 1478566523703
+    }
+  ]
+}
