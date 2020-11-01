@@ -1,0 +1,184 @@
+{
+  "title": "First Look at Familiar Formats",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "b73cb37761184eeb",
+      "text": "Look for the conventions used by xml, yaml, json and the like. Check that they have not been adulterated by any subsequent processing."
+    },
+    {
+      "type": "paragraph",
+      "id": "111ae388257ae416",
+      "text": "Extract bits from json with jq."
+    },
+    {
+      "type": "code",
+      "id": "37812648c1f073a3",
+      "text": "cat unknown | jq '.'\ncat unknown | jq '.journal'\ncat unknown | jq '.journal[1]'\ncat unknown | jq '.journal[] | .type'\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "0f5c1e615a0a9341",
+      "text": "Try these unknowns. [http://alien.fed.wiki/first-look-at-familiar-formats.json json] [http://alien.fed.wiki/system/export.json json]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "First Look at Familiar Formats",
+        "story": []
+      },
+      "date": 1475945792467
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "b73cb37761184eeb"
+      },
+      "id": "b73cb37761184eeb",
+      "type": "add",
+      "date": 1475945794767
+    },
+    {
+      "type": "edit",
+      "id": "b73cb37761184eeb",
+      "item": {
+        "type": "paragraph",
+        "id": "b73cb37761184eeb",
+        "text": "Look for the conventions used by xml, yaml, json and the like. Check that they have not been adulterated by any subsequent processing."
+      },
+      "date": 1475945858429
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "37812648c1f073a3"
+      },
+      "id": "37812648c1f073a3",
+      "type": "add",
+      "after": "b73cb37761184eeb",
+      "date": 1475945993508
+    },
+    {
+      "type": "edit",
+      "id": "37812648c1f073a3",
+      "item": {
+        "type": "code",
+        "id": "37812648c1f073a3",
+        "text": "cat unknown | jq '.'"
+      },
+      "date": 1475946016355
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "111ae388257ae416"
+      },
+      "id": "111ae388257ae416",
+      "type": "add",
+      "after": "37812648c1f073a3",
+      "date": 1475946043010
+    },
+    {
+      "type": "edit",
+      "id": "111ae388257ae416",
+      "item": {
+        "type": "paragraph",
+        "id": "111ae388257ae416",
+        "text": "Extract bits from json with jq."
+      },
+      "date": 1475946137595
+    },
+    {
+      "type": "move",
+      "order": [
+        "b73cb37761184eeb",
+        "111ae388257ae416",
+        "37812648c1f073a3"
+      ],
+      "id": "111ae388257ae416",
+      "date": 1475946140905
+    },
+    {
+      "type": "edit",
+      "id": "37812648c1f073a3",
+      "item": {
+        "type": "code",
+        "id": "37812648c1f073a3",
+        "text": "cat unknown | jq '.'\ncat unknown | jq '.journal'\ncat unknown | jq '.journal[1]'\ncat unknown | jq '.journal[] | .type'\n"
+      },
+      "date": 1475946338489
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "0f5c1e615a0a9341"
+      },
+      "id": "0f5c1e615a0a9341",
+      "type": "add",
+      "after": "37812648c1f073a3",
+      "date": 1478469544703
+    },
+    {
+      "type": "edit",
+      "id": "0f5c1e615a0a9341",
+      "item": {
+        "type": "paragraph",
+        "id": "0f5c1e615a0a9341",
+        "text": "Try this unknown. [http://alien.fed.wiki/first-look-at-familiar-formats json]"
+      },
+      "date": 1478469596690
+    },
+    {
+      "type": "edit",
+      "id": "0f5c1e615a0a9341",
+      "item": {
+        "type": "paragraph",
+        "id": "0f5c1e615a0a9341",
+        "text": "Try this unknown. [http://alien.fed.wiki/first-look-at-familiar-formats.json json]"
+      },
+      "date": 1478469613947
+    },
+    {
+      "type": "edit",
+      "id": "0f5c1e615a0a9341",
+      "item": {
+        "type": "paragraph",
+        "id": "0f5c1e615a0a9341",
+        "text": "Try this unknown. [http://alien.fed.wiki/system/export.json json]"
+      },
+      "date": 1478469765396
+    },
+    {
+      "type": "edit",
+      "id": "0f5c1e615a0a9341",
+      "item": {
+        "type": "paragraph",
+        "id": "0f5c1e615a0a9341",
+        "text": "Try these unknowns. [http://alien.fed.wiki/system/export.json json]"
+      },
+      "date": 1478469878412
+    },
+    {
+      "type": "edit",
+      "id": "0f5c1e615a0a9341",
+      "item": {
+        "type": "paragraph",
+        "id": "0f5c1e615a0a9341",
+        "text": "Try these unknowns. [http://alien.fed.wiki/first-look-at-familiar-formats json] [http://alien.fed.wiki/system/export.json json]"
+      },
+      "date": 1478469922657
+    },
+    {
+      "type": "edit",
+      "id": "0f5c1e615a0a9341",
+      "item": {
+        "type": "paragraph",
+        "id": "0f5c1e615a0a9341",
+        "text": "Try these unknowns. [http://alien.fed.wiki/first-look-at-familiar-formats.json json] [http://alien.fed.wiki/system/export.json json]"
+      },
+      "date": 1478469936269
+    }
+  ]
+}

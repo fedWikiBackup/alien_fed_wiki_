@@ -1,0 +1,227 @@
+{
+  "title": "First Look at Encodings",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "0361a7119680e09f",
+      "text": "Extended character sets are encoded into smaller ones by a variety of methods. Recognize them by what they do with common characters."
+    },
+    {
+      "type": "code",
+      "id": "e34be63ec383af03",
+      "text": "Any nominee who had told either of us that he had a =93fiduciary responsibility=94 as a businessman or to his family to pay as little tax as possible, as Mr. Trump put it, would have been told to stop wasting the president=92s time. "
+    },
+    {
+      "type": "paragraph",
+      "id": "cd87aed444678e61",
+      "text": "While utf-8 has become the norm online, string primitives may choke on characters outside of its specification. Look for encoding transformation primitives that offer the option of ignoring these and apply them as needed."
+    },
+    {
+      "type": "code",
+      "id": "d29c9da0699aa59a",
+      "text": "text = File.read 'data.json', encoding: 'UTF-8'"
+    },
+    {
+      "type": "paragraph",
+      "id": "ad5fad7be859b1bb",
+      "text": "Ruby has ignore options, but only apply them when a transformation is in fact required. One trick is to transform to utf-16 and back again."
+    },
+    {
+      "type": "code",
+      "id": "f60d5d8e73c905f9",
+      "text": "def utf(text)\n  unless text.nil?\n    text.encode!('UTF-16','UTF-8',\n      :invalid=>:replace, :replace=>'❖')\n    text.encode!('UTF-8','UTF-16')\n  end\nend\n"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "First Look at Encodings",
+        "story": []
+      },
+      "date": 1475945548102
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "0361a7119680e09f"
+      },
+      "id": "0361a7119680e09f",
+      "type": "add",
+      "date": 1475945550375
+    },
+    {
+      "type": "edit",
+      "id": "0361a7119680e09f",
+      "item": {
+        "type": "paragraph",
+        "id": "0361a7119680e09f",
+        "text": "Extended character sets are encoded into smaller ones by a variety of methods. Recognize them by what they do with common characters."
+      },
+      "date": 1475945647576
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "e34be63ec383af03"
+      },
+      "id": "e34be63ec383af03",
+      "type": "add",
+      "after": "0361a7119680e09f",
+      "date": 1475945650233
+    },
+    {
+      "type": "edit",
+      "id": "e34be63ec383af03",
+      "item": {
+        "type": "code",
+        "id": "e34be63ec383af03",
+        "text": "Any nominee who had told either of us that he had a =93fiduciary \nresponsibility=94 as a businessman or to his family to pay as little tax \nas possible, as Mr. Trump put it, would have been told to stop wasting \nthe president=92s time. "
+      },
+      "date": 1475945657324
+    },
+    {
+      "type": "edit",
+      "id": "e34be63ec383af03",
+      "item": {
+        "type": "code",
+        "id": "e34be63ec383af03",
+        "text": "Any nominee who had told either of us that he had a =93fiduciary responsibility=94 as a businessman or to his family to pay as little tax as possible, as Mr. Trump put it, would have been told to stop wasting \nthe president=92s time. "
+      },
+      "date": 1475945672322
+    },
+    {
+      "type": "edit",
+      "id": "e34be63ec383af03",
+      "item": {
+        "type": "code",
+        "id": "e34be63ec383af03",
+        "text": "Any nominee who had told either of us that he had a =93fiduciary responsibility=94 as a businessman or to his family to pay as little tax as possible, as Mr. Trump put it, would have been told to stop wasting the president=92s time. "
+      },
+      "date": 1475945686993
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "cd87aed444678e61"
+      },
+      "id": "cd87aed444678e61",
+      "type": "add",
+      "after": "e34be63ec383af03",
+      "date": 1478271940973,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1478271960492
+    },
+    {
+      "type": "edit",
+      "id": "cd87aed444678e61",
+      "item": {
+        "type": "paragraph",
+        "id": "cd87aed444678e61",
+        "text": "While utf-8 has become the norm online, string primitives may choke on characters outside of its specification. Look for encoding transformation primitives that offer the option of ignoring these and apply them as needed."
+      },
+      "date": 1478272087110
+    },
+    {
+      "type": "add",
+      "id": "ad5fad7be859b1bb",
+      "item": {
+        "type": "paragraph",
+        "id": "ad5fad7be859b1bb",
+        "text": "Ruby has ignore options, but only apply them when a transformation is in fact required. One trick is to transform to utf-16 and back again."
+      },
+      "after": "cd87aed444678e61",
+      "date": 1478272157721
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f60d5d8e73c905f9"
+      },
+      "id": "f60d5d8e73c905f9",
+      "type": "add",
+      "after": "ad5fad7be859b1bb",
+      "date": 1478272170985
+    },
+    {
+      "type": "edit",
+      "id": "f60d5d8e73c905f9",
+      "item": {
+        "type": "code",
+        "id": "f60d5d8e73c905f9",
+        "text": "def utf(text)\n  unless text.nil?\n    text.encode!('UTF-16','UTF-8',:invalid=>:replace, :replace=>'❖')\n    text.encode!('UTF-8','UTF-16')\n  end\nend\n"
+      },
+      "date": 1478272179338
+    },
+    {
+      "type": "edit",
+      "id": "f60d5d8e73c905f9",
+      "item": {
+        "type": "code",
+        "id": "f60d5d8e73c905f9",
+        "text": "def utf(text)\n  unless text.nil?\n    text.encode!('UTF-16','UTF-8', :invalid=>:replace, :replace=>'❖')\n    text.encode!('UTF-8','UTF-16')\n  end\nend\n"
+      },
+      "date": 1478272190658
+    },
+    {
+      "type": "edit",
+      "id": "f60d5d8e73c905f9",
+      "item": {
+        "type": "code",
+        "id": "f60d5d8e73c905f9",
+        "text": "def utf(text)\n  unless text.nil?\n    text.encode!('UTF-16','UTF-8',\n      :invalid=>:replace, :replace=>'❖')\n    text.encode!('UTF-8','UTF-16')\n  end\nend\n"
+      },
+      "date": 1478272227754
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d29c9da0699aa59a"
+      },
+      "id": "d29c9da0699aa59a",
+      "type": "add",
+      "after": "f60d5d8e73c905f9",
+      "date": 1487076477223
+    },
+    {
+      "type": "edit",
+      "id": "d29c9da0699aa59a",
+      "item": {
+        "type": "code",
+        "id": "d29c9da0699aa59a",
+        "text": "data = JSON.parse File.read 'data.json', encoding: 'UTF-8'"
+      },
+      "date": 1487076533062
+    },
+    {
+      "type": "edit",
+      "id": "d29c9da0699aa59a",
+      "item": {
+        "type": "code",
+        "id": "d29c9da0699aa59a",
+        "text": "text = File.read 'data.json', encoding: 'UTF-8'"
+      },
+      "date": 1487076558493
+    },
+    {
+      "type": "move",
+      "order": [
+        "0361a7119680e09f",
+        "e34be63ec383af03",
+        "cd87aed444678e61",
+        "d29c9da0699aa59a",
+        "ad5fad7be859b1bb",
+        "f60d5d8e73c905f9"
+      ],
+      "id": "d29c9da0699aa59a",
+      "date": 1487076563596
+    }
+  ]
+}

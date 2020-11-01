@@ -1,0 +1,200 @@
+{
+  "title": "Ward Cunningham",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "9419041b867bca0d",
+      "text": "I've always taken a forensic approach to computing. What is the next thing I can do to get the computer to reveal its secrets? Usually I write another program, a smaller and simpler program than the thing I am trying to understand."
+    },
+    {
+      "type": "paragraph",
+      "id": "b7f58d761eab12ac",
+      "text": "I first took an interest in semistructured data when as cto of an internet startup I engaged in data sharing arrangements with other entities. We'll just send you an xml file they said. Thus began an adventure."
+    },
+    {
+      "type": "paragraph",
+      "id": "b244c242706c7a1d",
+      "text": "[[XML Import in Ruby]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "bc3fe2458c4c06ab",
+      "text": "[[Exploratory Parsing]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "d1885a5cc4a31392",
+      "text": "I've become more interested recently in the structure of information when spread over many sources. My own federated wiki seeks to increase the spreading. My analysis of this lead me to construction of for purpose graph databases."
+    },
+    {
+      "type": "paragraph",
+      "id": "24766aedffe1e3cf",
+      "text": "[[El Dorado Warehouse]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "b02171f4eb5cfae7",
+      "text": "I set out to assemble these notes for a guest lecture at Hack Oregon's Hack University. The subject was advanced data management especially as applied to civic datasets made accessible to citizens. [http://www.hackoregon.org/ site]"
+    },
+    {
+      "type": "paragraph",
+      "id": "8107e7d10e27086e",
+      "text": "See also [[Search for Crime & Corruption]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Ward Cunningham",
+        "story": []
+      },
+      "date": 1487080467955
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "9419041b867bca0d"
+      },
+      "id": "9419041b867bca0d",
+      "type": "add",
+      "date": 1487080474514
+    },
+    {
+      "type": "edit",
+      "id": "9419041b867bca0d",
+      "item": {
+        "type": "paragraph",
+        "id": "9419041b867bca0d",
+        "text": "I've always taken a forensic approach to computing. What is the next thing I can do to get the computer to reveal its secrets? Usually I write another program, a smaller and simpler program than the thing I am trying to understand."
+      },
+      "date": 1487080675139
+    },
+    {
+      "type": "add",
+      "id": "b7f58d761eab12ac",
+      "item": {
+        "type": "paragraph",
+        "id": "b7f58d761eab12ac",
+        "text": "I first took an interest in semistructured data when as CTO of an internet startup I engaged in data sharing arrangements with other entities. We'll just send you an xml file they said. Thus began an adventure."
+      },
+      "after": "9419041b867bca0d",
+      "date": 1487080832028
+    },
+    {
+      "type": "edit",
+      "id": "b7f58d761eab12ac",
+      "item": {
+        "type": "paragraph",
+        "id": "b7f58d761eab12ac",
+        "text": "I first took an interest in semistructured data when as cto of an internet startup I engaged in data sharing arrangements with other entities. We'll just send you an xml file they said. Thus began an adventure."
+      },
+      "date": 1487080851308
+    },
+    {
+      "type": "add",
+      "id": "b244c242706c7a1d",
+      "item": {
+        "type": "paragraph",
+        "id": "b244c242706c7a1d",
+        "text": "[[XML Import in Ruby]]"
+      },
+      "after": "b7f58d761eab12ac",
+      "date": 1487081062541
+    },
+    {
+      "type": "add",
+      "id": "bc3fe2458c4c06ab",
+      "item": {
+        "type": "paragraph",
+        "id": "bc3fe2458c4c06ab",
+        "text": "[[Exploratory Parsing]]"
+      },
+      "after": "b244c242706c7a1d",
+      "date": 1487081214384
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d1885a5cc4a31392"
+      },
+      "id": "d1885a5cc4a31392",
+      "type": "add",
+      "after": "bc3fe2458c4c06ab",
+      "date": 1487081264210
+    },
+    {
+      "type": "edit",
+      "id": "d1885a5cc4a31392",
+      "item": {
+        "type": "paragraph",
+        "id": "d1885a5cc4a31392",
+        "text": "I've become more interested recently in the structure of information when spread over many sources. My own federated wiki seeks to increase the spreading. My analysis of this lead me to construction of for purpose graph databases."
+      },
+      "date": 1487081420537
+    },
+    {
+      "type": "add",
+      "id": "24766aedffe1e3cf",
+      "item": {
+        "type": "paragraph",
+        "id": "24766aedffe1e3cf",
+        "text": "[[El Dorado]]"
+      },
+      "after": "d1885a5cc4a31392",
+      "date": 1487081551220
+    },
+    {
+      "type": "add",
+      "id": "b02171f4eb5cfae7",
+      "item": {
+        "type": "paragraph",
+        "id": "b02171f4eb5cfae7",
+        "text": "I set out to assemble these notes for a guest lecture at Hack Oregon's Hack University."
+      },
+      "after": "24766aedffe1e3cf",
+      "date": 1487081885034
+    },
+    {
+      "type": "edit",
+      "id": "b02171f4eb5cfae7",
+      "item": {
+        "type": "paragraph",
+        "id": "b02171f4eb5cfae7",
+        "text": "I set out to assemble these notes for a guest lecture at Hack Oregon's Hack University. The subject was advanced data management especially as applied to civic datasets made accessible to citizens."
+      },
+      "date": 1487082104443
+    },
+    {
+      "type": "edit",
+      "id": "b02171f4eb5cfae7",
+      "item": {
+        "type": "paragraph",
+        "id": "b02171f4eb5cfae7",
+        "text": "I set out to assemble these notes for a guest lecture at Hack Oregon's Hack University. The subject was advanced data management especially as applied to civic datasets made accessible to citizens. [http://www.hackoregon.org/ site]"
+      },
+      "date": 1487082114690
+    },
+    {
+      "type": "edit",
+      "id": "24766aedffe1e3cf",
+      "item": {
+        "type": "paragraph",
+        "id": "24766aedffe1e3cf",
+        "text": "[[El Dorado Warehouse]]"
+      },
+      "date": 1487082160032
+    },
+    {
+      "type": "add",
+      "id": "8107e7d10e27086e",
+      "item": {
+        "type": "paragraph",
+        "id": "8107e7d10e27086e",
+        "text": "See also [[Search for Crime & Corruption]]"
+      },
+      "after": "b02171f4eb5cfae7",
+      "date": 1522853693013
+    }
+  ]
+}

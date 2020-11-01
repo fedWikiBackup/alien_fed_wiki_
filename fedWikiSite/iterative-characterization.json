@@ -1,0 +1,396 @@
+{
+  "title": "Iterative Characterization",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "53b8ee15e04cb819",
+      "text": "We can distinguish knowing something from knowing what we know about something. The latter tells us how we might access the former. We can characterize a body of knowledge to varying degrees and incrementally improve that characterization. Our method employs mechanically separating representations into those that we recognize in some detail from those we understand only superficially."
+    },
+    {
+      "type": "markdown",
+      "id": "909998afb3192160",
+      "text": "# Method"
+    },
+    {
+      "type": "paragraph",
+      "id": "9cfe800d57a69dfe",
+      "text": "We decompose a representation by applying a network of classifiers of varying precision. We prioritize classifier application favoring the more precise but always with a fallback. This network becomes our model to be iteratively improved."
+    },
+    {
+      "type": "paragraph",
+      "id": "3c6e903776e43651",
+      "text": "With each iterative step, choose a category of interest, distinguish members of that category by adding a more precise classifier, repeat until interest wanes."
+    },
+    {
+      "type": "paragraph",
+      "id": "742bcb9ade51b524",
+      "text": "A sense of progress is maintained by counting the members of fallback categories and working those numbers down to insignificance."
+    },
+    {
+      "type": "markdown",
+      "id": "ab3733392607ce37",
+      "text": "# Performance"
+    },
+    {
+      "type": "paragraph",
+      "id": "dcafc676542d15ba",
+      "text": "Successful application of this method depends on several performance characteristics."
+    },
+    {
+      "type": "paragraph",
+      "id": "ebd049794f608d94",
+      "text": "Categories must be easily viewed."
+    },
+    {
+      "type": "paragraph",
+      "id": "ad9e8e0f3ef3f8e1",
+      "text": "Classifiers must be easily added."
+    },
+    {
+      "type": "paragraph",
+      "id": "e895a4bbd218eb42",
+      "text": "Iterations must be fast to maintain interest."
+    },
+    {
+      "type": "markdown",
+      "id": "382a2f892d4fea3a",
+      "text": "# Examples"
+    },
+    {
+      "type": "paragraph",
+      "id": "beddfb37c9f03568",
+      "text": "Iterative characterization by computer becomes valuable when a dataset is large and of interest beyond its original design. The activity is more exploring than solving though goals regularly surface."
+    },
+    {
+      "type": "paragraph",
+      "id": "80fbfae934a54edf",
+      "text": "PEG parsing of Wikipedia. Parsing expression grammars are contextually specific about lexical forms and offer prioritized alternatives through backtracking. [[Exploratory Parsing]] provides instrumentation for category viewing while category sampling speeds iteration."
+    },
+    {
+      "type": "paragraph",
+      "id": "095fb3ce48e1cfa4",
+      "text": "Structure Warehousing. The transform step in ETL classifies elements as related or not while graph database queries present categories on multiple dimensions. [[El Dorado]] extends the method over context boundaries as often found in large enterprise."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Iterative Characterization",
+        "story": []
+      },
+      "date": 1493470870887
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "53b8ee15e04cb819"
+      },
+      "id": "53b8ee15e04cb819",
+      "type": "add",
+      "date": 1493470883432
+    },
+    {
+      "type": "edit",
+      "id": "53b8ee15e04cb819",
+      "item": {
+        "type": "paragraph",
+        "id": "53b8ee15e04cb819",
+        "text": "We can distinguish knowing something from knowing what we know about something. The latter tells us how we might access the former. We can characterize a body of knowledge to varying degrees and incrementally improve that characterization. Our method employs mechanically separating representations into those that we recognize in some detail from those we understand only superficially."
+      },
+      "date": 1493472515373
+    },
+    {
+      "type": "add",
+      "id": "909998afb3192160",
+      "item": {
+        "type": "paragraph",
+        "id": "909998afb3192160",
+        "text": "# Method"
+      },
+      "after": "53b8ee15e04cb819",
+      "date": 1493472645534
+    },
+    {
+      "type": "add",
+      "id": "9cfe800d57a69dfe",
+      "item": {
+        "type": "paragraph",
+        "id": "9cfe800d57a69dfe",
+        "text": "We decompose a representation by applying a network of classifiers of varying precision. We prioritize their application favoring the more precise but always with a fallback."
+      },
+      "after": "909998afb3192160",
+      "date": 1493474055888
+    },
+    {
+      "type": "edit",
+      "id": "9cfe800d57a69dfe",
+      "item": {
+        "type": "paragraph",
+        "id": "9cfe800d57a69dfe",
+        "text": "We decompose a representation by applying a network of classifiers of varying precision. We prioritize their application favoring the more precise but always with a fallback that will capture the not yet classified for further analysis."
+      },
+      "date": 1493474186088
+    },
+    {
+      "type": "edit",
+      "id": "9cfe800d57a69dfe",
+      "item": {
+        "type": "paragraph",
+        "id": "9cfe800d57a69dfe",
+        "text": "We decompose a representation by applying a network of classifiers of varying precision. We prioritize classifier application favoring the more precise but always with a fallback. This network becomes our model to be iteratively improved."
+      },
+      "date": 1493474493388
+    },
+    {
+      "type": "edit",
+      "id": "9cfe800d57a69dfe",
+      "item": {
+        "type": "paragraph",
+        "id": "9cfe800d57a69dfe",
+        "text": "We decompose a representation by applying a network of classifiers of varying precision. We prioritize classifier application favoring the more precise but always with a fallback. This network becomes our model to be iteratively improved. "
+      },
+      "date": 1493474567339
+    },
+    {
+      "type": "edit",
+      "id": "9cfe800d57a69dfe",
+      "item": {
+        "type": "paragraph",
+        "id": "9cfe800d57a69dfe",
+        "text": "We decompose a representation by applying a network of classifiers of varying precision. We prioritize classifier application favoring the more precise but always with a fallback. This network becomes our model to be iteratively improved."
+      },
+      "date": 1493474743780
+    },
+    {
+      "type": "add",
+      "id": "3c6e903776e43651",
+      "item": {
+        "type": "paragraph",
+        "id": "3c6e903776e43651",
+        "text": "With each iterative step, choose a category of interest, distinguish members of that category by adding a more precise classifier, repeat."
+      },
+      "after": "9cfe800d57a69dfe",
+      "date": 1493475199307
+    },
+    {
+      "type": "edit",
+      "id": "3c6e903776e43651",
+      "item": {
+        "type": "paragraph",
+        "id": "3c6e903776e43651",
+        "text": "With each iterative step, choose a category of interest, distinguish members of that category by adding a more precise classifier, repeat until there is no further category of interest."
+      },
+      "date": 1493475458404
+    },
+    {
+      "type": "edit",
+      "id": "3c6e903776e43651",
+      "item": {
+        "type": "paragraph",
+        "id": "3c6e903776e43651",
+        "text": "With each iterative step, choose a category of interest, distinguish members of that category by adding a more precise classifier, repeat until interest wanes."
+      },
+      "date": 1493475606390
+    },
+    {
+      "type": "add",
+      "id": "ab3733392607ce37",
+      "item": {
+        "type": "paragraph",
+        "id": "ab3733392607ce37",
+        "text": "# Performance"
+      },
+      "after": "3c6e903776e43651",
+      "date": 1493475639794
+    },
+    {
+      "type": "add",
+      "id": "dcafc676542d15ba",
+      "item": {
+        "type": "paragraph",
+        "id": "dcafc676542d15ba",
+        "text": "Successful application of this method depends on several performance characteristics."
+      },
+      "after": "ab3733392607ce37",
+      "date": 1493475746011
+    },
+    {
+      "type": "add",
+      "id": "ebd049794f608d94",
+      "item": {
+        "type": "paragraph",
+        "id": "ebd049794f608d94",
+        "text": "Categories must be easily viewed."
+      },
+      "after": "dcafc676542d15ba",
+      "date": 1493475959692
+    },
+    {
+      "type": "add",
+      "id": "ad9e8e0f3ef3f8e1",
+      "item": {
+        "type": "paragraph",
+        "id": "ad9e8e0f3ef3f8e1",
+        "text": "Classifiers must be easily added."
+      },
+      "after": "ebd049794f608d94",
+      "date": 1493476006240
+    },
+    {
+      "type": "add",
+      "id": "e895a4bbd218eb42",
+      "item": {
+        "type": "paragraph",
+        "id": "e895a4bbd218eb42",
+        "text": "Iterations must be sufficiently fast to maintain interest."
+      },
+      "after": "ad9e8e0f3ef3f8e1",
+      "date": 1493476064795
+    },
+    {
+      "type": "edit",
+      "id": "e895a4bbd218eb42",
+      "item": {
+        "type": "paragraph",
+        "id": "e895a4bbd218eb42",
+        "text": "Iterations must be fast to maintain interest."
+      },
+      "date": 1493476108113
+    },
+    {
+      "type": "edit",
+      "id": "ab3733392607ce37",
+      "item": {
+        "type": "markdown",
+        "id": "ab3733392607ce37",
+        "text": "# Performance"
+      },
+      "date": 1493476195181
+    },
+    {
+      "type": "edit",
+      "id": "909998afb3192160",
+      "item": {
+        "type": "markdown",
+        "id": "909998afb3192160",
+        "text": "# Method"
+      },
+      "date": 1493476199128
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "382a2f892d4fea3a"
+      },
+      "id": "382a2f892d4fea3a",
+      "type": "add",
+      "after": "e895a4bbd218eb42",
+      "date": 1493476835932
+    },
+    {
+      "type": "edit",
+      "id": "382a2f892d4fea3a",
+      "item": {
+        "type": "paragraph",
+        "id": "382a2f892d4fea3a",
+        "text": "# Examples"
+      },
+      "date": 1493476848060
+    },
+    {
+      "type": "add",
+      "id": "beddfb37c9f03568",
+      "item": {
+        "type": "paragraph",
+        "id": "beddfb37c9f03568",
+        "text": "Iterative characterization by computer becomes valuable when a dataset is large and of interest beyond its original design."
+      },
+      "after": "382a2f892d4fea3a",
+      "date": 1493477000186
+    },
+    {
+      "type": "edit",
+      "id": "382a2f892d4fea3a",
+      "item": {
+        "type": "markdown",
+        "id": "382a2f892d4fea3a",
+        "text": "# Examples"
+      },
+      "date": 1493477006354
+    },
+    {
+      "type": "add",
+      "id": "80fbfae934a54edf",
+      "item": {
+        "type": "paragraph",
+        "id": "80fbfae934a54edf",
+        "text": "PEG parsing of Wikipedia. Parsing expression grammars are contextually specific about lexical forms and offer prioritized alternatives through backtracking. [[Exploratory Parsing]] provides instrumentation for category viewing while category sampling speeds iteration."
+      },
+      "after": "beddfb37c9f03568",
+      "date": 1493477447672
+    },
+    {
+      "type": "add",
+      "id": "095fb3ce48e1cfa4",
+      "item": {
+        "type": "paragraph",
+        "id": "095fb3ce48e1cfa4",
+        "text": "Structure Warehousing. The transform step in ETL classifies elements as related or not while graph database queries present categories on multiple dimensions."
+      },
+      "after": "80fbfae934a54edf",
+      "date": 1493477987723
+    },
+    {
+      "type": "edit",
+      "id": "095fb3ce48e1cfa4",
+      "item": {
+        "type": "paragraph",
+        "id": "095fb3ce48e1cfa4",
+        "text": "Structure Warehousing. The transform step in ETL classifies elements as related or not while graph database queries present categories on multiple dimensions. [[El Dorado]] extends the method over context boundaries as often found in large enterprise."
+      },
+      "date": 1493478843907
+    },
+    {
+      "type": "add",
+      "id": "742bcb9ade51b524",
+      "item": {
+        "type": "paragraph",
+        "id": "742bcb9ade51b524",
+        "text": "A sense of progress is maintained by counting the members of fallback categories and working those numbers down to insignificance."
+      },
+      "after": "3c6e903776e43651",
+      "date": 1493479026664
+    },
+    {
+      "type": "edit",
+      "id": "beddfb37c9f03568",
+      "item": {
+        "type": "paragraph",
+        "id": "beddfb37c9f03568",
+        "text": "Iterative characterization by computer becomes valuable when a dataset is large and of interest beyond its original design. We're more inclined to call the activity exploring than solving."
+      },
+      "date": 1493479868481
+    },
+    {
+      "type": "edit",
+      "id": "beddfb37c9f03568",
+      "item": {
+        "type": "paragraph",
+        "id": "beddfb37c9f03568",
+        "text": "Iterative characterization by computer becomes valuable when a dataset is large and of interest beyond its original design. The activity is more exploring than solving."
+      },
+      "date": 1493479939857
+    },
+    {
+      "type": "edit",
+      "id": "beddfb37c9f03568",
+      "item": {
+        "type": "paragraph",
+        "id": "beddfb37c9f03568",
+        "text": "Iterative characterization by computer becomes valuable when a dataset is large and of interest beyond its original design. The activity is more exploring than solving though goals regularly surface."
+      },
+      "date": 1493479998272
+    }
+  ]
+}

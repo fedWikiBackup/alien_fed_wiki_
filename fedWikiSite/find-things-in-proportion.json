@@ -1,0 +1,173 @@
+{
+  "title": "Find Things in Proportion",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "df51e45ff3d2d620",
+      "text": "Once you can expose structured information you will want to know how much of each structure you have. Do the counts make sense? Are things in proportion?"
+    },
+    {
+      "type": "paragraph",
+      "id": "c0d0c4a70914bc9e",
+      "text": "Where there are duplicates, count them."
+    },
+    {
+      "type": "code",
+      "id": "993d4abd5bde250a",
+      "text": "cat unknown | sort | uniq -c | sort -n"
+    },
+    {
+      "type": "paragraph",
+      "id": "a44ee66f831c2a13",
+      "text": "Where things appear in spurts, plot them."
+    },
+    {
+      "type": "code",
+      "id": "fbd52565546e3996",
+      "text": "cat /var/log/httpd/access_log |\\\n  perl -e '\n    while () {\n      for(1..100) {\n        print \"|\" if (<> =~ /googlebot/)\n      } print \"\\n\"\n    }' | \\\n  less"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Find Things in Proportion",
+        "story": []
+      },
+      "date": 1475947581544
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "df51e45ff3d2d620"
+      },
+      "id": "df51e45ff3d2d620",
+      "type": "add",
+      "date": 1475947583924
+    },
+    {
+      "type": "edit",
+      "id": "df51e45ff3d2d620",
+      "item": {
+        "type": "paragraph",
+        "id": "df51e45ff3d2d620",
+        "text": "Once you can expose structured information you will want to know how much of each structure you have. Do the counts make sense?"
+      },
+      "date": 1475947686732
+    },
+    {
+      "type": "edit",
+      "id": "df51e45ff3d2d620",
+      "item": {
+        "type": "paragraph",
+        "id": "df51e45ff3d2d620",
+        "text": "Once you can expose structured information you will want to know how much of each structure you have. Do the counts make sense? Are things in proportion?"
+      },
+      "date": 1475947732098
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c0d0c4a70914bc9e"
+      },
+      "id": "c0d0c4a70914bc9e",
+      "type": "add",
+      "after": "df51e45ff3d2d620",
+      "date": 1475947912429
+    },
+    {
+      "type": "edit",
+      "id": "c0d0c4a70914bc9e",
+      "item": {
+        "type": "paragraph",
+        "id": "c0d0c4a70914bc9e",
+        "text": "Where there are duplicates, count them."
+      },
+      "date": 1475947935920
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "7e3e9dc0396655de"
+      },
+      "id": "7e3e9dc0396655de",
+      "type": "add",
+      "after": "c0d0c4a70914bc9e",
+      "date": 1475947938192
+    },
+    {
+      "type": "remove",
+      "id": "7e3e9dc0396655de",
+      "date": 1475947941915
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "993d4abd5bde250a"
+      },
+      "id": "993d4abd5bde250a",
+      "type": "add",
+      "after": "c0d0c4a70914bc9e",
+      "date": 1475947945857
+    },
+    {
+      "type": "edit",
+      "id": "993d4abd5bde250a",
+      "item": {
+        "type": "code",
+        "id": "993d4abd5bde250a",
+        "text": "cat unknown | sort | uniq -c | sort -n"
+      },
+      "date": 1475948008964
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "a44ee66f831c2a13"
+      },
+      "id": "a44ee66f831c2a13",
+      "type": "add",
+      "after": "993d4abd5bde250a",
+      "date": 1477191055498,
+      "error": {
+        "type": "error",
+        "msg": "Forbidden",
+        "response": "Forbidden"
+      }
+    },
+    {
+      "type": "fork",
+      "date": 1477191072861
+    },
+    {
+      "type": "edit",
+      "id": "a44ee66f831c2a13",
+      "item": {
+        "type": "paragraph",
+        "id": "a44ee66f831c2a13",
+        "text": "Where things appear in spurts, plot them."
+      },
+      "date": 1477191115791
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "fbd52565546e3996"
+      },
+      "id": "fbd52565546e3996",
+      "type": "add",
+      "after": "a44ee66f831c2a13",
+      "date": 1477191121679
+    },
+    {
+      "type": "edit",
+      "id": "fbd52565546e3996",
+      "item": {
+        "type": "code",
+        "id": "fbd52565546e3996",
+        "text": "cat /var/log/httpd/access_log |\\\n  perl -e '\n    while () {\n      for(1..100) {\n        print \"|\" if (<> =~ /googlebot/)\n      } print \"\\n\"\n    }' | \\\n  less"
+      },
+      "date": 1477191213746
+    }
+  ]
+}
